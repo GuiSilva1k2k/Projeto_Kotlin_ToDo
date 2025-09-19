@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "935827267261",
+    "project_id": "listadetarefas-e9229",
+    "storage_bucket": "listadetarefas-e9229.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935827267261:android:7a8dfe85d3f47bbef621d4",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfb6A1i2roxxHUI5bZumvsv0NQY1y2PCo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
