@@ -50,7 +50,7 @@ class FirestoreDataSource {
             .addOnSuccessListener{ Log.d("FIRESTORE", "Documento ${now}-${task.title} salvo com sucesso") }
             .addOnFailureListener{ Log.d("FIRESTORE", "Erro ao salvar documento ${now}-${task.title}") }
             .addOnCanceledListener{ Log.d("FIRESTORE", "A ação de salvar o documento foi cancelada") }
-            .addOnCompleteListener{ Log.d("FIRESTORE", "Ação finalizada!!!") }
+            .addOnCompleteListener{ Log.d("FIRESTORE", "Ação finalizada!!") }
     }
 
     fun getTasks(): Flow<List<TaskModel>> = callbackFlow {
